@@ -292,6 +292,66 @@ def removeFromCart():
     conn.close()
     return redirect(url_for('root'))
 
+@app.route("/checkout")
+@cross_origin()
+def checkout():
+    if 'email' not in session:
+        return redirect(url_for('loginForm'))
+    loggedIn, firstName, noOfItems = getLoginDetails()
+    email = session['email']
+    with sqlite3.connect('database.db') as conn:
+        cur = conn.cursor()
+        cur.execute("SELECT userId FROM users WHERE email = ?", (email, ))
+        userId = cur.fetchone()[0]
+        cur.execute("SELECT products.price FROM products, kart WHERE products.productId = kart.productId AND kart.userId = ?", (userId, ))
+        products = cur.fetchall()
+    totalPrice = 0
+    for row in products:
+        totalPrice += row[0]
+    return render_template("checkout.html", totalPrice=totalPrice, loggedIn=loggedIn, firstName=firstName, noOfItems=noOfItems)
+
+@app.route("/order_confirmation")
+@cross_origin()
+def order_confirmation():
+    if 'email' not in session:
+        return redirect(url_for('loginForm'))
+    loggedIn, firstName, noOfItems = getLoginDetails()
+    email = session['email']
+    with sqlite3.connect('database.db') as conn:
+        cur = conn.cursor()
+        cur.execute("SELECT userId, totalExp FROM users WHERE email = ?", (email, ))
+        userDetails = cur.fetchone()
+        userId = userDetails[0]
+        totalExp = userDetails[1] if userDetails[1] is not None else 0
+        # Add total expenditure
+        cur.execute("SELECT products.price FROM products, kart WHERE products.productId = kart.productId AND kart.userId = ?", (userId, ))
+        products = cur.fetchall()
+        totalPrice = 0
+        for row in products:
+            totalPrice += row[0]
+        totalExp += totalPrice
+        print(totalExp)
+        cur.execute("UPDATE users set totalExp = ? WHERE userId = ?", (totalExp, userId))
+        # Empty the cart
+        try:
+            cur.execute("DELETE FROM kart WHERE userId = ?", (userId, ))
+            conn.commit()
+            msg = "removed successfully"
+        except:
+            conn.rollback()
+            msg = "error occured"
+    conn.close()
+    # Update number of items in cart
+    noOfItems = 0
+    return render_template("order_confirmation.html", loggedIn=loggedIn, firstName=firstName, noOfItems=noOfItems)
+
+@app.route("/cancel_order")
+@cross_origin()
+def cancel_order():
+    msg = 'Order Cancelled!!!'
+    print(msg)
+    return redirect(url_for('root'))
+
 @app.route("/logout")
 @cross_origin()
 def logout():
