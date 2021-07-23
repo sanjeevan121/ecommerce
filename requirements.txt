@@ -3,7 +3,9 @@ autocorrect==2.5.0
 certifi==2021.5.30
 click==8.0.1
 dask==2021.3.0
-dataclasses==0.8 
+# As of Python 3.7, this is no longer necessary and will therefore go wrong during deployment.
+# dataclasses is part of the standard library since 3.7, so remove it from your requirements.txt
+#dataclasses==0.8 
 entrypoints==0.3
 Flask==2.0.1
 Flask-Cors==3.0.10
