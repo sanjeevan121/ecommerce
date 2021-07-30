@@ -3,7 +3,8 @@ import sqlite3, hashlib
 from werkzeug.utils import secure_filename
 import os
 from flask_cors import CORS, cross_origin
-from app.app.logger.logger import App_Logger
+#from app.app.logger.logger import App_Logger
+from logger import App_Logger
 
 app = Flask(__name__,template_folder="templates")
 app.secret_key = 'secret key'
