@@ -4,7 +4,7 @@ from werkzeug.utils import secure_filename
 import os
 from flask_cors import CORS, cross_origin
 #from app.app.logger.logger import App_Logger
-from logger import App_Logger
+from logger import logger
 
 app = Flask(__name__,template_folder="templates")
 app.secret_key = 'secret key'
@@ -13,7 +13,7 @@ ALLOWED_EXTENSIONS = set(['jpeg', 'jpg', 'png', 'gif'])
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 CORS(app)
 template_folder="template"
-logger = App_Logger()
+logger = logger()
 
 def getLoginDetails():
     log_file =open("userinfo.txt", 'a+')
