@@ -1,0 +1,7 @@
+1)click on category -positive reward
+2)click on product-positive reward
+3)click on add to cart-positive reward
+4)click on cart-
+5)click on remove -negative reward
+6)click on proceed to checkout-positive reward
+7)click on pay now-episode complete

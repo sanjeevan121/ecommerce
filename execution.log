@@ -1,0 +1,176 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 537-459-791
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 537-459-791
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 537-459-791
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 537-459-791
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-967-634
+INFO:werkzeug: * Detected change in '/home/sanjeevan/files/recommender system project/main project/ecommerce/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-967-634
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-967-634
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-967-634
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "GET /static/uploads/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/uploads/Untitled_by_Troy_Jarrell.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "GET /static/uploads/Mountainous_View_by_Sven_Scheuermeier.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/uploads/Kinkaku_Ji_by_Elizabeth_K_Joseph.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/uploads/Untitled_by_Aaron_Burden.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "GET /static/uploads/Untitled_0026_by_Mike_Sinko.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "GET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "GET /static/uploads/Yellow_Jacket_by_Manuel_Frei.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:20] "[36mGET /static/uploads/Screenshot_from_2021-04-22_20-02-26.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:22] "GET /productDescription?productId=19 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:22] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:22] "[36mGET /static/css/productDescription.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:22] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:22] "[36mGET /static/uploads/Screenshot_from_2021-04-22_20-02-26.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:22] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:23] "[32mGET /addToCart?productId=19 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:23] "GET /loginForm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Untitled_by_Troy_Jarrell.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Kinkaku_Ji_by_Elizabeth_K_Joseph.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Untitled_by_Aaron_Burden.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Untitled_0026_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Mountainous_View_by_Sven_Scheuermeier.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Yellow_Jacket_by_Manuel_Frei.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:25] "[36mGET /static/uploads/Screenshot_from_2021-04-22_20-02-26.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:28] "GET /cart HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:28] "GET /static/css/cart.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:28] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:29] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:29] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:29] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:30] "GET /checkout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:30] "GET /static/css/checkout.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:30] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:30] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:30] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:34] "GET /order_confirmation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:34] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:34] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:34] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Kinkaku_Ji_by_Elizabeth_K_Joseph.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Untitled_by_Troy_Jarrell.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Untitled_by_Aaron_Burden.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Untitled_0026_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Mountainous_View_by_Sven_Scheuermeier.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Yellow_Jacket_by_Manuel_Frei.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:49] "[36mGET /static/uploads/Screenshot_from_2021-04-22_20-02-26.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Kinkaku_Ji_by_Elizabeth_K_Joseph.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Untitled_by_Troy_Jarrell.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Untitled_by_Aaron_Burden.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Mountainous_View_by_Sven_Scheuermeier.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Untitled_0026_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Yellow_Jacket_by_Manuel_Frei.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:51] "[36mGET /static/uploads/Screenshot_from_2021-04-22_20-02-26.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Kinkaku_Ji_by_Elizabeth_K_Joseph.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Untitled_by_Troy_Jarrell.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Mountainous_View_by_Sven_Scheuermeier.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Untitled_by_Aaron_Burden.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Untitled_0026_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Yellow_Jacket_by_Manuel_Frei.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:52] "[36mGET /static/uploads/Screenshot_from_2021-04-22_20-02-26.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:55] "GET /productDescription?productId=12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:55] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:55] "[36mGET /static/css/productDescription.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:55] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:55] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:55] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[32mGET /addToCart?productId=12 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Kinkaku_Ji_by_Elizabeth_K_Joseph.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Untitled_by_Troy_Jarrell.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Untitled_by_Aaron_Burden.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Mountainous_View_by_Sven_Scheuermeier.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Untitled_0026_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Yellow_Jacket_by_Manuel_Frei.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:57] "[36mGET /static/uploads/Screenshot_from_2021-04-22_20-02-26.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:59] "GET /cart HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:59] "[36mGET /static/css/cart.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:59] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:59] "[36mGET /static/uploads/Untitled_7019_by_Mike_Sinko.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:59] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:48:59] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:02] "GET /checkout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:02] "[36mGET /static/css/checkout.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:02] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:02] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:02] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:05] "GET /order_confirmation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:05] "[36mGET /static/css/topStyle.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2021 10:49:05] "[36mGET /static/images/shoppingCart.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-967-634
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-967-634
+INFO:werkzeug: * Detected change in '/home/sanjeevan/files/recommender system project/main project/ecommerce/logger/logit.py', reloading
+INFO:werkzeug: * Restarting with stat
