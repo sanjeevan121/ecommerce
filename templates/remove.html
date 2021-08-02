@@ -6,22 +6,33 @@
 </link>
 </head>
 <body>
+<h1>Remove Items</h1>
+{% for items in data %}
 <table>
-	{% for i in range(6) %}
+	{% for key in ('name', 'price', 'image') %}
 	<tr>
-		{% for row in data %}
+		{% for row in items %}
 		<td>
-			<a href="/removeItem?productId={{row[0]}}">
-			{% if i == 4 %}
-				<img src={{ url_for('static', filename='uploads/' + row[i]) }} id="itemImage" />
+			{% if key == 'image' %}
+				<img src="{{row.image}}" id="itemImage" />
 			{% else %}
-				{{row[i]}}
+				{{row[key]}}
 			{% endif %}
-			</a>
 		</td>
 		{% endfor %}
 	</tr>
 	{% endfor %}
+	<tr>
+		{% for row in items %}
+		<td>
+			<a href="/removeItem?productId={{row.productId}}&categoryId={{row.categoryId}}">
+				Remove
+			</a>
+		</td>
+		{% endfor %}
+	</tr>
+	<br>
 </table>
+{% endfor %}
 </body>
 </html>

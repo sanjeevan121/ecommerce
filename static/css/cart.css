@@ -20,7 +20,7 @@
 	margin-top: 5px;
 	margin-bottom: 5px;
 	height: 100px;
-	width: 200px;
+	width: 725px;
 	float: left;
 }
 
@@ -34,7 +34,7 @@
 }
 
 #itemPrice {
-	margin-left: 5px;
+	margin-left: 15px;
 	margin-right: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -47,13 +47,13 @@
 	width: 80px;
 }
 
-#seperator {
+.separator {
 	margin: 0px;
-	max-width: 400px;
+	max-width: 900px;
 }
 
 #total {
-	padding-left: 280px;
+	padding-left: 760px;
 }
 
 #itemNameTag {

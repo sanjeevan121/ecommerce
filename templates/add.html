@@ -13,7 +13,7 @@
 	Stock: <input type="text" name="stock"><br>
 	Category: <select name="category">
 		{% for row in categories %}
-			<option value="{{row[0]}}">{{row[1]}}</option>
+			<option value="{{row.categoryId}}">{{row.name}}</option>
 		{% endfor %}
 	</select><br>
 	<input type="submit">

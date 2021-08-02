@@ -42,21 +42,21 @@
 	<div id="tableItems">
 		{% for row in products %}
 		<div>
-			<hr id="seperator">
+			<hr class="separator">
 			<div id="itemImage">
-				<img src={{url_for('static', filename='uploads/'+row[3])}} id="image"/>
+				<img src="{{row.image}}" id="image"/>
 			</div>
 			<div id="itemName">
-				<span id="itemNameTag">{{row[1]}}</span><br>
+				<span id="itemNameTag">{{row.name}}</span><br>
 				In stock<br>
-				<a href="/removeFromCart?productId={{row[0]}}">Remove</a>
+				<a href="/removeFromCart?productId={{row.productId}}&categoryId={{row.categoryId}}">Remove</a>
 			</div>
 			<div id="itemPrice">
-				${{row[2]}}
+				${{row.price}}
 			</div>
 		</div>
 		{% endfor %}
-		<hr id="seperator">
+		<hr class="separator">
 		<div id="total">
 			<span id="subtotal">Subtotal</span> : ${{totalPrice}}
 		</div>

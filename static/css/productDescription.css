@@ -9,7 +9,7 @@
 	height: 250px;
 	width: 200px;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 100px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	display: inline-block;
@@ -27,6 +27,10 @@
 
 #descriptionTable td {
 	width: 150px;
+}
+
+#descriptionTable td.wide {
+	width: 450px;
 }
 
 #addToCart {

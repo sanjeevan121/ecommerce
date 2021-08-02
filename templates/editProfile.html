@@ -41,16 +41,16 @@
 <div class="display">
 	<h2>Edit profile</h2>
 	<form action="/updateProfile" method="POST">
-		<p>Email:<input type="email" name="email" value={{profileData[1]}} readonly="readonly"></p>
-		<p>First Name:<input type="text" name="firstName" value={{profileData[2]}}></p>
-		<p>Last Name: <input type="text" name="lastName" value={{profileData[3]}}></p>
-		<p>Address 1: <input type="text" name="address1" value={{profileData[4]}}></p>
-		<p>Address 2: <input type="text" name="address2" value={{profileData[5]}}></p>
-		<p>Zip Code: <input type="text" name="zipcode" value={{profileData[6]}}></p>
-		<p>City: <input type="text" name="city" value={{profileData[7]}}></p>
-		<p>State: <input type="text" name="state" value={{profileData[8]}}></p>
-		<p>Country: <input type="text" name="country" value={{profileData[9]}}></p>
-		<p>Phone Number: <input type="text" name="phone" value={{profileData[10]}}></p>
+		<p>Email:<input type="email" name="email" value={{profileData.email}} readonly="readonly"></p>
+		<p>First Name:<input type="text" name="firstName" value={{profileData.firstName}}></p>
+		<p>Last Name: <input type="text" name="lastName" value={{profileData.lastName}}></p>
+		<p>Address 1: <input type="text" name="address1" value={{profileData.address1}}></p>
+		<p>Address 2: <input type="text" name="address2" value={{profileData.address2}}></p>
+		<p>Zip Code: <input type="text" name="zipcode" value={{profileData.zipcode}}></p>
+		<p>City: <input type="text" name="city" value={{profileData.city}}></p>
+		<p>State: <input type="text" name="state" value={{profileData.state}}></p>
+		<p>Country: <input type="text" name="country" value={{profileData.country}}></p>
+		<p>Phone Number: <input type="text" name="phone" value={{profileData.phone}}></p>
 		<input type="submit" value="Save">
 	</form>
 </div>
