@@ -1,8 +1,9 @@
 import concurrent.futures 
-import logging
 from datetime import datetime
 import pymongo as pmg
+import os
 import uuid
+
 class Logit:
 
     """
@@ -13,33 +14,41 @@ class Logit:
     
     >>>from logger.logit import Logit
     >>>l = Logit()
-    >>>l.log("scope","message")
+    >>>l.log("scope","message")   # where scope = function name or class name and message = any string
+    
          
     """
     def __init__(self):
-        logging.basicConfig(filename='execution.log', level=logging.DEBUG)
-        self.executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+        # self.executor = concurrent.futures.ThreadPoolExecutor(max_workers=3)
 
-        DEFAULT_CONNECTION_URL = 'localhost:27017'
-        client = pmg.MongoClient(DEFAULT_CONNECTION_URL)
+        # DEFAULT_CONNECTION_URL = 'localhost:27017'
+        # client = pmg.MongoClient(DEFAULT_CONNECTION_URL)
+        client = pmg.MongoClient(os.getenv('connection'))
 
         self.conn = client["execution_log"]["log"] 
-        # conn.insert_one()
-    def log(self, scope,msg):
+
+    def UPDATE(self, DICT):
+        self.conn.update_one({"_id": int(str(datetime.now().date()).replace("-",""))},{ '$push' : DICT})
+
+    def INSERT(self, DICT):
+        self.conn.insert_one(DICT)
+
+    def log(self, scope, msg):
 
         id_obj=self.conn.find({}, {"_id"})
         idxt = []
         for idx in id_obj:
-            idxt.append(idx)
-
-        if datetime.now().date() in idxt:
-            self.executor.submit(self.conn.update, {"_id":datetime.now().date(),f"{uuid.uuid1()}":f"{datetime.now().date()} {datetime.now().strftime('%H:%M:%S')} {scope} {msg}"})
-        else:
-            self.executor.submit(self.conn.insert_one, {"_id":datetime.now().date(),f"{uuid.uuid1()}":f"{datetime.now().date()} {datetime.now().strftime('%H:%M:%S')} {scope} {msg}"})
+            idxt.append(idx["_id"])
+        # self.conn.insert_one({"_id":int(str(datetime.now().date()).replace("-","")),f"{uuid.uuid1()}":f"{str(datetime.now().date())} {str(datetime.now().strftime('%H:%M:%S'))} {scope} {msg}"})
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+            if int(str(datetime.now().date()).replace("-","")) in idxt:
+                executor.submit(self.UPDATE, {f"{uuid.uuid1()}":f"{str(datetime.now().date())} {str(datetime.now().strftime('%H:%M:%S'))} {scope} {msg}"})
+            else:
+                executor.submit(self.INSERT, {"_id":int(str(datetime.now().date()).replace("-","")),f"{uuid.uuid1()}":f"{str(datetime.now().date())} {str(datetime.now().strftime('%H:%M:%S'))} {scope} {msg}"})
 
 
 # if __name__=="__main__":
 #     l = Logit()
 #     for i in range(10):
-#         l.log("I'm a log",type=logging.error)
-#     l.log("test")
+#         l.log("none","I'm a log")
+#     l.log("nope","test")
