@@ -1,0 +1,27 @@
+For information on individual kpis visit:
+https://databox.com/ecommerce-kpis#CVR
+
+Conversion Rate
+Conversion Rate Per Traffic Channel
+Customer Lifetime Value (CLTV)
+Customer Retention Rate
+Annual Repurchase Rate
+Average Order Value (AOV)
+Net Profit
+Cart Abandonment Rate
+Add to Cart Rate
+Orders Per Active Customers
+Gross Merchandise Volume (GMV)
+Return on Investment (ROI)
+Influencer ROI
+Return on Ad Spend (ROAS)
+Return on Marketing Investment
+Cost Per Acquisition (CPA)
+Customer Acquisition Cost (CAC)
+Average Profit Per Customer
+Revenue Per Site Visitor
+Time on Site
+Bounce Rate
+Organic Search Rankings
+Customer Satisfaction
+

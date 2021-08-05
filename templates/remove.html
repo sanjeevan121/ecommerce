@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Remove</title>
+<link rel="stylesheet" href={{url_for('static', filename='css/remove.css')}}>
+</link>
+</head>
+<body>
+<h1>Remove Items</h1>
+{% for items in data %}
+<table>
+	{% for key in ('name', 'price', 'image') %}
+	<tr>
+		{% for row in items %}
+		<td>
+			{% if key == 'image' %}
+				<img src="{{row.image}}" id="itemImage" />
+			{% else %}
+				{{row[key]}}
+			{% endif %}
+		</td>
+		{% endfor %}
+	</tr>
+	{% endfor %}
+	<tr>
+		{% for row in items %}
+		<td>
+			<a href="/removeItem?productId={{row.productId}}&categoryId={{row.categoryId}}">
+				Remove
+			</a>
+		</td>
+		{% endfor %}
+	</tr>
+	<br>
+</table>
+{% endfor %}
+</body>
+</html>
