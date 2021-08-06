@@ -54,7 +54,6 @@ class Logit:
                                               f"{uuid.uuid1()}": f"{str(datetime.now().date())} {str(datetime.now().strftime('%H:%M:%S'))} {scope} {msg}"})
 
     def userlog(self, userId, action, performedOn, categoryId, productId, totalPayment):
-        now = datetime.now()
         client = pmg.MongoClient(os.getenv('connection'))
         self.conn = client["Clean_user"]["CleanUser"]
         with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
