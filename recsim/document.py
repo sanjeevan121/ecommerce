@@ -48,9 +48,8 @@ class CandidateSet(object):
     """Returns an integer, the number of documents in this candidate set."""
     documents = []
     print("Started Reading JSON file which contains multiple JSON document")
-    dict = pd.read_csv("/home/sanjeevan/files/recommender system project/recsim/recsim/docs.csv").to_dict(orient='records')
 
-    #dict=pd.read_csv(BASE_DIR('/recsim/docs.csv')).to_dict()
+    dict=pd.read_csv(BASE_DIR('/recsim/docs.csv')).to_dict(orient='records')
 
     self._documents=dict
 
